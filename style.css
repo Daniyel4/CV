@@ -1,0 +1,915 @@
+.navbar{
+    background:transparent;
+    height: 74px;
+    font-family: 'inter', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.open-navbar{
+    display: none;
+}
+
+.mobileMenuNav{
+    background: #000;
+    display: none;
+}
+
+.close-navbar{
+    display: none;
+}
+
+.navbar-nav{
+    margin-left: 71px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-link:visited{
+    color: #fff;
+}
+
+.nav-link:any-link{
+    color: #fff;
+}
+
+
+.title-banner1{
+    background: linear-gradient(50deg, #17462C, #2E8B57);
+    height: 533px;
+}
+
+.sectionTitle1{
+    margin-top: 68px;
+    font-family: 'inter', sans-serif;
+    font-size: 63px;
+    font-weight: 900;
+    line-height: 65px;
+    color: #fff;
+}
+
+.sectionSubtitle1{
+    margin-top: 14px;
+    font-family: 'inter', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}
+
+.buttonContain1{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section1Button{
+    display: inline-block;
+    padding: 8px 38px 8px 37px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: seagreen;
+}
+
+.section1Button:hover{
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+}
+
+
+
+.title-banner2{
+    background: #fff;
+    height: 700px;
+    
+}
+
+.sectionTitle2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.subSection{
+    margin-top: 64px;
+}
+
+.subtitle1{
+    margin-top: 18px;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.caption{
+    margin-top: 18px;
+    font-family: 'inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.buttonContain{
+    margin-top: 91px;
+    text-align: center;
+}
+
+.section2Button{
+    display: inline-block;
+    padding: 8px 38px 8px 37px;
+    border-radius: 4px;
+    border: none;
+    background: seagreen;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+
+.section2Button:hover{
+    background: seagreen;
+    color: #fff;
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+    top: -5px;
+    transition: all .5s ease-out;
+}
+
+.section2Button:focus{
+    background: seagreen;
+    color: #fff;
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+    top: -5px;
+    transition: all .3s ease-out;
+}
+
+.title-banner3{
+    background: #F5F5F6;
+    height: 700px;
+}
+
+.subtitle2{
+    margin-top: 60px;
+    font-family: 'inter',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.accordion-item{
+    border: 0px;
+}
+
+.accordion-item:first-of-type .accordion-button:first-of-type{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed:last-of-type{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.accordion-button::after{
+    background-image:url(assets/fonts/ic_add_24px.svg);
+    order: -1;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(assets/fonts/ic_remove_24px.svg);
+    margin-top: -14px;
+}
+
+.accordion-button:focus{
+    box-shadow: 0 0 0 0;
+    border-color: seagreen;
+}
+
+.accordion-button:not(.collapsed){
+    background: #f5f5f6;
+    color: #000;
+}
+
+.accordion-button{
+    background: #f5f5f6;
+    border: solid 1px seagreen;
+    height: 29px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'inter',sans-serif;
+}
+
+.accordion-body{
+    background: #f5f5f6;
+    font-family: 'inter',sans-serif;
+    text-align: left;
+}
+
+.buttonContain2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section3Button{
+    display: inline-block;
+    padding: 8px 38px 8px 37px;
+    border-radius: 4px;
+    border: none;
+    background: seagreen;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.section3Button:hover{
+    background: seagreen;
+    color: #fff;
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+    top: -5px;
+    transition: all .5s ease-out;
+}
+
+
+.section3Button:focus{
+    background: seagreen;
+    color: #fff;
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+    top: -5px;
+    transition: all .5s ease-out;
+}
+
+
+
+.title-banner-4{
+    background: #fff;
+    height: 500px;
+}
+
+.page-title4{
+    margin-top: 72px;
+    margin-bottom: 74px;
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.customerName{
+    margin-bottom: 9px;
+    font-family: 'inter', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    color: #2e8b57;
+}
+
+
+.customerLocation{
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.customerReview{
+    margin-top: 36px;
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.title-banner5{
+    background: url(assets/fonts/istockphoto-991799206-612x612.jpg)center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    
+}
+
+.overlay{
+    background: rgba(46, 139, 87, 0.8);
+    height: 200px;
+}
+
+
+.joinWillon{
+    margin-top: 60px;
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.buttonContain3{
+    margin-top: 25px;
+}
+
+.section4Button{
+    display: inline-block;
+    padding: 8px 38px 8px 37px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: seagreen;
+    text-transform: uppercase;
+}
+
+.section5Button:hover{
+    background: seagreen;
+    color: #fff;
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+    top: -5px;
+    transition: all .5s ease-out;
+}
+
+.section5Button:focus{
+    background: seagreen;
+    color: #fff;
+    box-shadow: 0px 16px 40px -10px #000;
+    position: relative;
+    top: -5px;
+    transition: all .5s ease-out;
+}
+
+
+.title-banner6{
+    background: #f5f5f6;
+    height: 800px;
+}
+
+
+.customerCare{
+    margin-top: 109px;
+    margin-left: 29px;
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.title-banner6 ul{
+    list-style: none;
+    margin-top: 23px;
+}
+
+.title-banner6 ul li{
+    margin-top: 47px;
+    font-family: 'inter',sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.title-banner6 ul li img{
+    margin-right: 17px;
+}
+
+
+.buttonContain6{
+    margin-top: 55px;
+}
+
+.section5Button{
+    display: inline-block;
+    padding: 8px 38px 8px 37px;
+    margin-left: 29px;
+    border-radius: 4px;
+    border: none;
+    background: seagreen;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.customercareImage{
+    margin-top: 77px;
+}
+
+
+
+.title-banner7{
+    background: seagreen;
+    height: 400px;
+}
+
+.adjustHeader{
+    margin-top: 56px;
+}
+
+.adjustHeader h3{
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.footernav{
+    margin: 0;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+hr{
+    color: white;
+    margin-top: 47px;
+}
+
+.copyrightContainer{
+    margin-top: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.copyrightContainer small{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width: 567px ){
+    
+    .nav-link{
+        display: none;
+    }
+    
+    .open-navbar{
+        display: block;
+        margin-right: 30px;
+    }
+    
+
+    .willonlogo{
+        margin-left: 20px;
+    }
+    
+    
+    .mobileMenuNav{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(46, 139, 87, 0.9);
+        position: fixed;
+        z-index: 1;
+    }
+    
+    
+    
+    
+    .close-navbar{
+        display: block;
+        text-align: end;
+        margin-right: 40px;
+        padding-top: 25px;
+    }
+    
+    .mobileNavlink{
+        display: block;
+        text-align: center;
+        margin-right: 60px;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        animation-name: bounceIn;
+        animation-duration: 0.75s;
+        animation-fill-mode: both;
+    }
+    
+    
+    @keyframes bounceIn{
+        0%, 20%, 40%, 60%, 80%, 100%{
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+        
+        0%{
+            opacity: 0;
+            transform: scale3d(0.3, 0.3, 0.3);
+        }
+        
+        20%{
+            transform: scale3d(1.1, 1.1, 1.1);
+        }
+        
+        40%{
+            transform: scale3d(0.9, 0.9, 0.9);
+        }
+        
+        60%{
+            opacity: 1;
+            transform: scale3d(1.03, 1.03, 1.03);
+        }
+        
+        80%{
+            transform: scale3d(0.97, 0.97, 0.97);
+        }
+        
+        100%{
+            
+            opacity: 1;
+            transform: scale3d(1, 1, 1);
+        }
+    }
+    
+    
+    
+    .mobileMenuNav{
+        display: none;
+    }
+    
+    
+    .title-banner1{
+        height: 400px;
+    }
+    
+    
+    .sectionTitle1{
+        margin-top: 34px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    
+    .sectionSubtitle1 br{
+        content: '';
+    }
+    
+    .sectionSubtitle1{
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .section1Button{
+    display: inline-block;
+    padding: 8px 38px 8px 37px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: seagreen;
+    }
+    
+    
+    .title-banner2{
+        height: 1000px;
+    }
+    
+    
+    .sectionTitle2{
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    .subSection{
+        margin-top: 25px;
+    }
+    
+    .subtitle1{
+        font-size: 20px;
+    }
+    
+    .caption{
+        font-size: 15px;
+    }
+    
+    .buttonContain{
+        margin-top: 32px;
+    }
+    
+    
+    .title-banner3{
+        height: 1070px;
+    }
+    
+    .title-banner3 img{
+        margin-top: 30px;
+    }
+    
+    .imageContainer{
+        margin-left: 0;
+        text-align: right;
+    }
+    
+    .subtitle2{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .justify-content-end{
+        margin-left: 0;
+    }
+    
+    .accordion-button{
+        font-size: 14px;
+        height: 30px;
+    }
+    
+    .accordion-body{
+        font-size: 16px;
+    }
+    
+    
+    .buttonContain2{
+        margin-top: 60px;
+    }
+    
+    .title-banner-4{
+        height: 400px;
+    }
+    
+    
+    .page-title4{
+        font-size: 23px;
+    }
+    
+    .customerName{
+        font-size: 16px;
+    }
+    
+    .customerLocation{
+        font-size: 20px;
+    }
+    
+    .customerReview{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    
+    
+    .joinWillon{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    
+    .title-banner6{
+        height: 900px;
+    }
+    
+    .customerCare{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .title-banner6 ul{
+    list-style: none;
+    margin-top: 23px;
+}
+    
+   .title-banner6 ul li{
+    margin-top: 24px;
+    font-family: 'inter',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+    
+    .title-banner6 ul li img{
+    margin-right: 10px;
+}
+    
+    .customercareImage{
+    margin-top: -60px;
+    margin-left: 0;
+    align-content: center;
+}
+
+    .title-banner7{
+        height: 1000px;
+    }
+    
+    
+    .adjustHeader{
+        text-align: center;
+    }
+    
+    
+    .mobileNavFooter{
+        display: block;
+    }
+    
+    .copyrightContainer{
+        margin-top: 30px;
+    }
+
+}
+
+/*Responsive Design for Tablet*/
+
+
+@media screen and (max-width: 768px){
+    
+    .nav-link{
+        display: none;
+    }
+    
+    .open-navbar{
+        display: block;
+        margin-right: 30px;
+    }
+    
+
+    .willonlogo{
+        margin-left: 20px;
+    }
+    
+    
+    .mobileMenuNav{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(46, 139, 87, 0.9);
+        position: fixed;
+        z-index: 1;
+    }
+    
+    
+    @keyframes bounceIn{
+        0%, 20%, 40%, 60%, 80%, 100%{
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+        
+        0%{
+            opacity: 0;
+            transform: scale3d(0.3, 0.3, 0.3);
+        }
+        
+        20%{
+            transform: scale3d(1.1, 1.1, 1.1);
+        }
+        
+        40%{
+            transform: scale3d(0.9, 0.9, 0.9);
+        }
+        
+        60%{
+            opacity: 1;
+            transform: scale3d(1.03, 1.03, 1.03);
+        }
+        
+        80%{
+            transform: scale3d(0.97, 0.97, 0.97);
+        }
+        
+        100%{
+            
+            opacity: 1;
+            transform: scale3d(1, 1, 1);
+        }
+    }
+    
+    
+    .close-navbar{
+        display: block;
+        text-align: end;
+        margin-right: 40px;
+        padding-top: 25px;
+    }
+    
+    .mobileNavlink{
+        display: block;
+        text-align: center;
+        margin-right: 60px;
+        font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        animation-name: bounceIn;
+        animation-duration: 0.75s;
+        animation-fill-mode: both;
+        
+    }
+    
+    .mobileMenuNav{
+        display: none;
+    }
+    
+     
+    .sectionTitle2{
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    .subtitle1{
+        font-size: 16px;
+    }
+    
+    .imageContainer{
+        align-content: center;
+    }
+    
+    
+    .accordion-button{
+        font-size: 14px;
+        height: 30px;
+    }
+    
+    
+     .subtitle2{
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    
+
+    
+    
+    .title-banner6 ul li{
+    margin-top: 25px;
+    font-family: 'inter',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+    
+    .joinWillon{
+        font-size: 25px;
+    }
+    
+    
+    .customercareImage{
+        margin-top: -60px;
+    }
+    
+    .page-title4{
+        font-size: 20px;
+    }
+    
+    .customerName{
+        font-size: 16px;
+    }
+    
+    .customerLocation{
+        font-size: 20px;
+    }
+    
+    
+    .customerReview{
+        font-size: 16px;
+    }
+    
+    
+    .customerCare{
+        font-size: 20px;
+    }
+    
+    
+    .title-banner6{
+        height: 820px;
+    }
+    
+    
+    
+    .title-banner7{
+        height: 950px;
+    }
+    
+  .adjustHeader h3{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+}
+    
+    .mobileNavFooter{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
